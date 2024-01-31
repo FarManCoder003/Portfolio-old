@@ -74,6 +74,14 @@ body{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+#nav ul li:nth-child(5):hover a{
+  background-color: transparent;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
 @media (min-width:1919px){
   #nav ul{
     margin: 0 0 0 280px;
@@ -333,7 +341,12 @@ margin-top: 12px;
   border-bottom-left-radius: 16px;
 }
 #social .mail span{
-padding-left: 22px;
+padding-left: 15px;
+}
+@media(min-width:1919px){
+  #social .mail span{
+    padding-left: 22px;
+    }
 }
 /* social end */
 
