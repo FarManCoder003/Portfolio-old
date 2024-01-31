@@ -76,7 +76,7 @@ body{
 }
 @media (min-width:1919px){
   #nav ul{
-    margin: 0 0 0 380px;
+    margin: 0 0 0 280px;
   }
   #nav ul li button{
     margin-left: 180%;
@@ -322,7 +322,7 @@ margin-top: 12px;
 }
 #social .mail:hover{
   background-color: black;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 #social .mail input{
   border: none;
@@ -333,7 +333,7 @@ margin-top: 12px;
   border-bottom-left-radius: 16px;
 }
 #social .mail span{
-padding-left: 15px;
+padding-left: 22px;
 }
 /* social end */
 
